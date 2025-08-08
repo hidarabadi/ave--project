@@ -1,3 +1,13 @@
+@font-face {
+    font-family: iranyeckan;
+    src: url(./IRANYekanWeb-Bold.eot) format("eot");
+    src: url(./IRANYekanWeb-Bold.svg) format("svg");
+    src: url(./IRANYekanWeb-Bold.ttf) format("ttf");
+    src: url(./IRANYekanWeb-Bold.woff) format("woff");
+    src: url(./IRANYekanWeb-Bold.woff2) format("woff2");
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +20,7 @@ html {
 
 body {
     direction: rtl;
-
+font-family: iranyeckan;
 }
 
 header {
@@ -77,11 +87,13 @@ main {
     display: flex;
     flex-direction: column;
 }
-button{
-border: none;
-outline: none;
-background-color: transparent;
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
+
 .border-1 {
     height: 95%vh;
     background-color: rgb(255, 193, 7);
@@ -115,7 +127,7 @@ background-color: transparent;
 
 .button1 {
     display: flex;
-    background-color: white ;
+    background-color: white;
     font-size: 30px;
     border-radius: 4px;
 
@@ -147,12 +159,9 @@ img {
     height: 477px;
     width: 477px;
 }
-.border-2{
-background-color: rgb(201, 193, 193);
+
+.border-2 {
+    background-color: rgb(201, 193, 193);
 
 
 }
-
-
-
-
