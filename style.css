@@ -54,7 +54,7 @@ svg {
     border-radius: 4px;
     border: none;
     padding: 8px;
-    
+
 }
 
 .search input {
@@ -200,128 +200,150 @@ img {
     border-radius: 4px;
 
 }
+
 .border-3 {
-background-color: #6c757d;
-padding: 30px;
-border-radius: 4px;
+    background-color: #6c757d;
+    padding: 30px;
+    border-radius: 4px;
 
 
 }
+
 .a3 img {
-width: 300px;
-height: 200px;
-
-}
-.a3{
-background-color: white;
-display: flex;
-flex-direction: column;
-width: 6000px;
-height: 400px;
-border: 1px solid white;
-border-radius: 4px;
-}
-.border-4{
-display: flex;
-flex-direction: column;
+    width: 300px;
+    height: 200px;
 
 }
 
-.a6{
+.a3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 6000px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.border-4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.a6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-     width: 600px; 
-    height: 600px; 
+    align-items: center;
+    width: 600px;
+    height: 600px;
     padding: 30px;
 
 }
 
-.href{
-width: 100%;
-text-align: center;
-border: 2px solid green;
-color:green ;
-border-radius: 4px;
+.href {
+    width: 100%;
+    text-align: center;
+    border: 2px solid green;
+    color: green;
+    border-radius: 4px;
 }
-.button3{
+
+.button3 {
     color: green;
     width: 540px;
 }
-.href:hover{
-background-color: green;
-color: white;
-}
-.button3:hover{
+
+.href:hover {
+    background-color: green;
     color: white;
 }
-.border-5{
-display: flex;
-flex-direction: row;
-position: relative;
-justify-content: center;
-text-align: center;
-background-color: #6c757d;
-max-width:100%;
-max-height: 100%;
-gap: 30px;
-}
-.b{
-width: 150px;
-height: 150px;
-display: flex;
-position: absolute;
-right: 44%;
-}
-.svgs{
-display: flex;
-flex-direction: row;
-justify-content: center;
-padding: 20px;
-}
-.svgs svg{
-width: 30px;
-height: 30px;
+
+.button3:hover {
+    color: white;
 }
 
-.d{
-width: 100px;
-height: 100px;
-display: flex;
-flex: 1;
+.border-5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: #6c757d;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 30px;
 }
-.li1{
-color: rgb(145, 145, 145);
+
+.b {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    right: 44%;
+}
+
+.svgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.svgs svg {
+    width: 30px;
+    height: 30px;
+}
+
+.d {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex: 1;
+}
+
+.li1 {
+    color: rgb(145, 145, 145);
 
 }
 
-.w{
-display: flex;
-justify-content: center;
-flex: 1;
+.w {
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
-.w2{
-display: flex;
-justify-content: center;
-flex: 2;
+
+.w2 {
+    display: flex;
+    justify-content: center;
+    flex: 2;
 }
-.w3{
-display: flex;
-justify-content: center;
-flex: 3;
+
+.w3 {
+    display: flex;
+    justify-content: center;
+    flex: 3;
 }
-.border-6{
-padding: 50px;
+
+.border-6 {
+    padding: 50px;
 
 }
-label{
+
+label {
     color: gray;
-display: flex;
+    display: flex;
 
 }
- .a6 input {
-width: 540px;
-display: flex;
+
+.a6 input {
+    width: 540px;
+    display: flex;
 }
 
 
+.a6m {
+    display: flex;
+    justify-content: center;
+}
